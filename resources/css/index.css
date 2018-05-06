@@ -1,0 +1,26 @@
+* {
+	font-family: Helvetica;
+	background-color: skyblue;
+}
+h1 {
+	title= "Bro, this is serious.";
+	text-align: center;
+	color: blue;
+	background-color: lightblue;
+}
+#p1 {
+	font-size: 18px;
+	color: red;
+	border: 1px solid powderblue;
+	padding: 10px;
+	text-align: center;
+a {
+	text-decoration: none;
+	color: blue;
+	cursor: not-allowed;
+}
+#p3 {
+	font-size: 30px;
+	color: red;
+	text-align: center;
+}

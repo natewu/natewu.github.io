@@ -1,0 +1,21 @@
+a#boxstyle {
+	text-decoration: none;
+	font-family: gill sans;
+	font-size: 3.5vw;
+	Color: #FF4E51;
+	margin: 10px;
+	display: block;
+	min-width: 100%;
+	
+}
+li a:hover {
+	background-color: #111;
+}
+img {
+	float: right;
+}
+a:after {
+	content: "";
+ 	clear: both;
+  	display: table;
+}

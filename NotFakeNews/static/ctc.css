@@ -1,0 +1,94 @@
+body {
+	background-color: #e8ebed;
+	margin: 0px;
+}
+h1 {
+	color: orangered;
+}
+div.wrapper {
+	margin: 0 auto;
+	height: 100%;
+}
+div.content {
+	text-align: center;
+	background-color: #56adff;
+	position: relative;
+	margin: 0 auto;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, " sans-serif";
+	border-radius: 3px;
+	height: 100%;
+	width: 90%;
+	padding: 11px;
+}
+div#subcount {
+	object-position: center;
+	align-content: center;
+	background-color: #FF4E51;
+	margin: 10px;
+	bottom: 0;
+	position: relative;
+	left: 0px;
+	right: 0px;
+	clear: both;
+}
+h#vs {
+	vertical-align: center;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, " sans-serif";
+	font-size: 100px;
+	margin-left: 20px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 10px;
+	position: relative;
+}
+a#subscribe {
+	left: 0;
+	right: 0;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 10px;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, " sans-serif";
+	font-size: 50px;
+	text-decoration: none;
+	color: white;
+	background-color: #ff0000;
+	display: block;
+	border-radius: 5px;
+}
+div.navbar {
+	Position: sticky;
+	width: 100%;
+	left: -0px;
+	top: 0;
+	z-index: 55;
+	background-color: #333;
+
+}
+div.logo {
+	text-align: center;
+	background-color: #0071c5;
+	margin: 0 auto;
+	margin-top: -20px;
+	margin-bottom: -20px;
+	height: 105%;
+	color: #ff4949;
+}
+iframe.slider {
+	min-width: 80%;
+	min-height: 400px;
+	overflow: hidden;
+}
+iframe.links {
+	min-width: 80%;
+	min-height: 610px;
+	overflow: hidden;
+	left: 0;
+}
+div#secondary {
+	width: 100%;
+	
+}
+div#clr {
+	clear:both;
+}

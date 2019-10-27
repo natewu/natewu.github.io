@@ -19,7 +19,43 @@
 		<div class="wrapper">
 			<div class="content">
 				<h2>Calgary Trivia Contest(Coming Soon) - Sponsored by Team GE</h2>
-			  
+			  	<div class="tab">
+						<button class="tablinks" onclick="openCity(event, 'Math')">Math</button>
+						<button class="tablinks" onclick="openCity(event, 'Science')">Science</button>
+						<button class="tablinks" onclick="openCity(event, 'ELA')">ELA</button>
+					</div>
+					<!-- Tab content -->
+					<div id="Math" class="tabcontent">
+						<h3>Math</h3>
+						<p>Coming soon</p>
+					</div>
+
+					<div id="Science" class="tabcontent">
+						<h3>Science</h3>
+						<p>Coming soon</p>
+					</div>
+
+					<div id="ELA" class="tabcontent">
+						<h3>ELA</h3>
+						<p>Coming soon</p>
+					</div>
+					<script>
+						includeHTML();
+						function openCity(evt, academicName) {
+						  var i, tabcontent, tablinks;
+						  tabcontent = document.getElementsByClassName("tabcontent");
+						  for (i = 0; i < tabcontent.length; i++) {
+						    tabcontent[i].style.display = "none";
+						  }
+						  tablinks = document.getElementsByClassName("tablinks");
+						  for (i = 0; i < tablinks.length; i++) {
+						    tablinks[i].className = tablinks[i].className.replace(" active", "");
+						  }
+						  document.getElementById(cityName).style.display = "block";
+						  evt.currentTarget.className += " active";
+						}
+					</script>
+						
 				<img src="https://cdn.discordapp.com/attachments/616476898738044928/628702622093672459/image0.png" alt="Zach" height="895" width="910" >
 				</div>
 				<a href="./ctc">Calgary Trivia Contest</a>

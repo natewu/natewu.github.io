@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calgary Trivia Challenge (Coming Soon)</title>
+	<link rel="stylesheet" href="./ctc/static/theme.css">
+	<link rel="shortcut icon" href="./ctc/static/images/NFN_LOGO.ico">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+	<body>
+		<div class="logo">
+    			<img src="./NotFakeNews/static/images/nfnLOGO.png" alt="NOT FAKE NEWS." />
+		</div>
+		<div class="navbar"></div>
+		<div class="wrapper">
+			<div class="content">
+			  <a href="./ctc/">CLICK HERE TO NOT FAKE NEWS</a>
+				</div>
+				
+			</div>
+		</div>
+		<script>
+			includeHTML();
+		</script>
+
+	</body>
+	
+</html>
